@@ -1,65 +1,49 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# SUNS
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+SUNSは大学内の学生専用SNSです。（現状では静岡大学にしか対応していません）
 
-## About Laravel
+SUNS is the university's social networking service for students.
+(Currently, it only supports Shizuoka University.)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+# DEMO
+ 
+<img width="600" alt="SUNS_img" src="https://user-images.githubusercontent.com/52380218/121855186-06ba6280-cd2e-11eb-9bbc-aef26b1d3723.png">
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img width="600" alt="SUNS2_img" src="https://user-images.githubusercontent.com/52380218/121855292-1fc31380-cd2e-11eb-96c5-552e76ee4084.png">
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+<img width="600" alt="SUNS3_img" src="https://user-images.githubusercontent.com/52380218/121855352-32d5e380-cd2e-11eb-9a3c-1fa45e0f06a7.png">
+ 
+# Features
+ 
+- 大学全体・同じ学部内・同じ学科内という3つのリストを自動生成して表示する
+    - ユーザ登録時に入力した学籍番号から学部と学科を自動判別する
+    - SNSによく見られる「フォロー・フォロワー」や「ともだち」といった概念を無くす
+- PCだけでなく、タブレットやスマートフォンでも不自由なく利用可能なレスポンシブなSNSサイト
+    - フロントエンドライブラリBootstrapを利用
 
-## Learning Laravel
+# Requirement
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+動作確認済みの環境
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+* macOS Big Sur 11.2.1
+* Laravel 5.6.40
+* XAMPP 7.1.30
+ 
+# Installation
 
-## Laravel Sponsors
+- [XAMPP](https://sourceforge.net/projects/xampp/files/)を自分のOSに合わせてダウンロードする。（動作確認済みのバージョンは7.1.30）
+    - [XAMPPの使い方](https://www.javadrive.jp/xampp/) 
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+# Usage
+ 
+工事中
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
+# Note
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- 静岡大学しか対応してません（学籍番号の仕様の関係上）
+ 
+# License
+ 
+"SUNS" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+ 
+Thank you!
